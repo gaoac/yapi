@@ -7,7 +7,7 @@ import { withRouter } from 'react-router';
 const FormItem = Form.Item;
 const RadioGroup = Radio.Group;
 
-import './Login.scss';
+import './Login.less';
 
 const formItemStyle = {
   marginBottom: '.16rem'

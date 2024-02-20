@@ -23,7 +23,7 @@ import { isJson, deepCopyJson, json5_parse } from '../../common.js';
 import axios from 'axios';
 import ModalPostman from '../ModalPostman/index.js';
 import CheckCrossInstall, { initCrossRequest } from './CheckCrossInstall.js';
-import './Postman.scss';
+import './Postman.less';
 import ProjectEnv from '../../containers/Project/Setting/ProjectEnv/index.js';
 import json5 from 'json5';
 const { handleParamsValue, ArrayToObject, schemaValidator } = require('common/utils.js');

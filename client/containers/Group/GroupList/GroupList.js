@@ -18,7 +18,7 @@ import {
 } from '../../../reducer/modules/group.js';
 import _ from 'underscore';
 
-import './GroupList.scss';
+import './GroupList.less';
 
 const tip = (
   <div className="title-container">

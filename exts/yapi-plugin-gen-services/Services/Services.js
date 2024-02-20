@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { getToken } from '../../../client/reducer/modules/project.js'
 
 
-import './Services.scss';
+import './Services.less';
 
 @connect(
   state => {

@@ -1,4 +1,4 @@
-import './index.scss';
+import './index.less';
 import React, { PureComponent as Component } from 'react';
 import { connect } from 'react-redux';
 import { Route } from 'react-router-dom';

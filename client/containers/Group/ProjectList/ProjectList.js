@@ -14,7 +14,7 @@ import ErrMsg from '../../../components/ErrMsg/ErrMsg.js';
 import { autobind } from 'core-decorators';
 import { setBreadcrumb } from '../../../reducer/modules/user';
 
-import './ProjectList.scss';
+import './ProjectList.less';
 
 @connect(
   state => {

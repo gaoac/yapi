@@ -167,15 +167,15 @@ module.exports = {
           }
         });
 
-        baseConfig.module.loaders.push({
-          test: /\.(sass|scss)$/,
-          loader: ykit.ExtractTextPlugin.extract(
-            require.resolve('css-loader') +
-              '?sourceMap!' +
-              require.resolve('sass-loader') +
-              '?sourceMap'
-          )
-        });
+        // baseConfig.module.loaders.push({
+        //   test: /\.(sass|scss)$/,
+        //   loader: ykit.ExtractTextPlugin.extract(
+        //     require.resolve('css-loader') +
+        //       '?sourceMap!' +
+        //       require.resolve('sass-loader') +
+        //       '?sourceMap'
+        //   )
+        // });
 
         baseConfig.module.preLoaders.push({
           test: /\.(js|jsx)$/,

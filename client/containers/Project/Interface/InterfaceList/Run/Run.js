@@ -10,7 +10,7 @@ import AddColModal from './AddColModal';
 // import {
 // } from '../../../reducer/modules/group.js'
 
-import './Run.scss';
+import './Run.less';
 
 @connect(state => ({
   currInterface: state.inter.curdata,

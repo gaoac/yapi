@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Icon, Row, Col, Input } from 'antd';
-import './ProjectTag.scss';
+import './ProjectTag.less';
 
 
 class ProjectTag extends Component {

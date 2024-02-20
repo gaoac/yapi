@@ -14,7 +14,7 @@ import { fetchNewsData } from '../../reducer/modules/news.js';
 import {
   setCurrGroup
 } from '../../reducer/modules/group';
-import './Group.scss';
+import './Group.less';
 import axios from 'axios'
 
 @connect(

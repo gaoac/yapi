@@ -12,7 +12,7 @@ const plugin = require('client/plugin.js');
 
 const routers = {}
 
-import './Setting.scss';
+import './Setting.less';
 
 @connect(state => {
   return {

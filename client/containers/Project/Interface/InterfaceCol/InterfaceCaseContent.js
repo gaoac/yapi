@@ -14,7 +14,7 @@ import {
 } from '../../../../reducer/modules/interfaceCol';
 import { Postman } from '../../../../components';
 
-import './InterfaceCaseContent.scss';
+import './InterfaceCaseContent.less';
 
 @connect(
   state => {

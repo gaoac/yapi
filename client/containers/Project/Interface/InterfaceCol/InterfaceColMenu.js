@@ -21,7 +21,7 @@ const FormItem = Form.Item;
 const confirm = Modal.confirm;
 const headHeight = 240; // menu顶部到网页顶部部分的高度
 
-import './InterfaceColMenu.scss';
+import './InterfaceColMenu.less';
 
 const ColModalForm = Form.create()(props => {
   const { visible, onCancel, onCreate, form, title } = props;

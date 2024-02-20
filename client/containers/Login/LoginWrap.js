@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Tabs } from 'antd';
 import LoginForm from './Login';
 import RegForm from './Reg';
-import './Login.scss';
+import './Login.less';
 const TabPane = Tabs.TabPane;
 
 @connect(state => ({

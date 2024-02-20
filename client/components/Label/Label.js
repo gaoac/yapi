@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Icon, Input, Tooltip } from 'antd';
 import PropTypes from 'prop-types';
-import './Label.scss';
+import './Label.less';
 
 export default class Label extends Component {
   constructor(props) {

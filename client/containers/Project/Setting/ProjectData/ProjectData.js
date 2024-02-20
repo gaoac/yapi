@@ -15,7 +15,7 @@ import {
 } from 'antd';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import './ProjectData.scss';
+import './ProjectData.less';
 import axios from 'axios';
 
 import URL from 'url';

@@ -4,7 +4,7 @@ import json5 from 'json5';
 import PropTypes from 'prop-types';
 import { schemaTransformToTable } from '../../../common/schema-transformTo-table.js';
 import _ from 'underscore';
-import './index.scss';
+import './index.less';
 
 const messageMap = {
   desc: '备注',

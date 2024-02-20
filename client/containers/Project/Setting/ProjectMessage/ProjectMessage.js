@@ -35,7 +35,7 @@ const RadioButton = Radio.Button;
 import constants from '../../../../constants/variable.js';
 const confirm = Modal.confirm;
 import { nameLengthLimit, entries, trim, htmlFilter } from '../../../../common';
-import '../Setting.scss';
+import '../Setting.less';
 import _ from 'underscore';
 import ProjectTag from './ProjectTag.js';
 // layout

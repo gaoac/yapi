@@ -3,7 +3,7 @@ import { message } from 'antd';
 import { connect } from 'react-redux';
 import axios from 'axios';
 import PropTypes from 'prop-types';
-import './index.scss';
+import './index.less';
 import { timeago } from '../../../common/utils';
 import { Link } from 'react-router-dom';
 import WikiView from './View.js';

@@ -10,7 +10,7 @@ import {
 import { getProject } from '../../../../reducer/modules/project.js';
 import axios from 'axios';
 import { message, Modal } from 'antd';
-import './Edit.scss';
+import './Edit.less';
 import { withRouter, Link } from 'react-router-dom';
 import ProjectTag from '../../Setting/ProjectMessage/ProjectTag.js';
 

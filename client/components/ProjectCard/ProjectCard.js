@@ -1,4 +1,4 @@
-import './ProjectCard.scss';
+import './ProjectCard.less';
 import React, { PureComponent as Component } from 'react';
 import { Card, Icon, Tooltip, Modal, Alert, Input, message } from 'antd';
 import { connect } from 'react-redux';

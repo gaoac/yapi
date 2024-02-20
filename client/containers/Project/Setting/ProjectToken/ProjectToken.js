@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './ProjectToken.scss';
+import './ProjectToken.less';
 import { getToken, updateToken } from '../../../../reducer/modules/project';
 import { connect } from 'react-redux';
 import { Icon, Tooltip, message, Modal } from 'antd';

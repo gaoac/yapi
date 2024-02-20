@@ -13,7 +13,7 @@ const { TextArea } = Input;
 const FormItem = Form.Item;
 const Option = Select.Option;
 
-import './ProjectList.scss';
+import './ProjectList.less';
 
 // layout
 const formItemLayout = {

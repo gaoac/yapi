@@ -19,7 +19,7 @@ import { Link, withRouter } from 'react-router-dom';
 import produce from 'immer';
 import { arrayChangeIndex } from '../../../../common.js';
 
-import './interfaceMenu.scss';
+import './interfaceMenu.less';
 
 const confirm = Modal.confirm;
 const TreeNode = Tree.TreeNode;

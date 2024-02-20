@@ -1,0 +1,100 @@
+// 变量定义
+@ball-color: #30a1f2;
+@ball-size: 0.15rem;
+@ball-margin: 0.02rem;
+@loader-radius: 0.25rem;
+
+// 延迟混入，模拟 SCSS 中的 @function
+.delay(@interval, @count, @index) {
+  @delay-time: ((@index * @interval) - (@interval * @count));
+}
+
+// 关键帧动画
+@keyframes ball-spin-fade-loader {
+  50% {
+    opacity: 0.3;
+    transform: scale(0.4);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+// 循环混入，模拟 SCSS 中的 @for 循环
+.ball-spin-fade-loader(@n: 8, @start: 1) when (@start <= @n) {
+  @quarter: (@loader-radius / 2) + (@loader-radius / 5.5);
+  > div:nth-child(@{start}) {
+    .positions(@start);
+    .delay(0.12s, @n, @start - 1);
+    animation: ball-spin-fade-loader 1s @delay-time infinite linear;
+  }
+  .ball-spin-fade-loader(@n, (@start + 1));
+}
+
+// 根据循环索引设置位置
+.positions(@index) when (@index = 1) {
+  top: @loader-radius;
+  left: 0;
+}
+.positions(@index) when (@index = 2) {
+  top: @quarter;
+  left: @quarter;
+}
+.positions(@index) when (@index = 3) {
+  top: 0;
+  left: @loader-radius;
+}
+.positions(@index) when (@index = 4) {
+  top: -@quarter;
+  left: @quarter;
+}
+.positions(@index) when (@index = 5) {
+  top: -@loader-radius;
+  left: 0;
+}
+.positions(@index) when (@index = 6) {
+  top: -@quarter;
+  left: -@quarter;
+}
+.positions(@index) when (@index = 7) {
+  top: 0;
+  left: -@loader-radius;
+}
+.positions(@index) when (@index = 8) {
+  top: @quarter;
+  left: -@quarter;
+}
+
+// 应用样式
+.loading-box {
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+  &-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  &-inner {
+    .ball-spin-fade-loader();
+    position: relative;
+    > div {
+      position: absolute;
+      width: @ball-size;
+      height: @ball-size;
+      border-radius: 50%;
+      margin: @ball-margin;
+      background-color: @ball-color;
+      animation-fill-mode: both;
+    }
+  }
+}

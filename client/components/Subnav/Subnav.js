@@ -1,4 +1,4 @@
-import './Subnav.scss';
+import './Subnav.less';
 import React, { PureComponent as Component } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';

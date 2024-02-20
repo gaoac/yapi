@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Table, Select, Button, Modal, Row, Col, message, Popconfirm } from 'antd';
 import { Link } from 'react-router-dom';
-import './MemberList.scss';
+import './MemberList.less';
 import { autobind } from 'core-decorators';
 import {
   fetchGroupMemberList,

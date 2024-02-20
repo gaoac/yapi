@@ -1,5 +1,5 @@
 import React, { PureComponent as Component } from 'react';
-import './Follows.scss';
+import './Follows.less';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Row, Col } from 'antd';

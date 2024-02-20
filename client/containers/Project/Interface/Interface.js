@@ -5,7 +5,7 @@ import { Route, Switch, matchPath } from 'react-router-dom';
 import { connect } from 'react-redux';
 const { Content, Sider } = Layout;
 
-import './interface.scss';
+import './interface.less';
 
 import InterfaceMenu from './InterfaceList/InterfaceMenu.js';
 import InterfaceList from './InterfaceList/InterfaceList.js';

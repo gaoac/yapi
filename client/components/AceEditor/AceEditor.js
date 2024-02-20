@@ -1,7 +1,7 @@
 import React from 'react';
 import mockEditor from './mockEditor';
 import PropTypes from 'prop-types';
-import './AceEditor.scss';
+import './AceEditor.less';
 
 const ModeMap = {
   javascript: 'ace/mode/javascript',

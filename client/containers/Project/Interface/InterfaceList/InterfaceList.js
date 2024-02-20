@@ -12,7 +12,7 @@ import {
 import { getProject } from '../../../../reducer/modules/project.js';
 import { Link } from 'react-router-dom';
 import variable from '../../../../constants/variable';
-import './Edit.scss';
+import './Edit.less';
 import Label from '../../../../components/Label/Label.js';
 
 const Option = Select.Option;

@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import axios from 'axios';
 import PropTypes from 'prop-types';
-import './index.scss';
+import './index.less';
 // import { withRouter } from 'react-router-dom';
 import { Row, Col, Tooltip, Icon } from 'antd';
 import { setBreadcrumb } from 'client/reducer/modules/user';

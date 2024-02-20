@@ -20,7 +20,7 @@ import { safeAssign } from 'client/common.js';
 import AceEditor from 'client/components/AceEditor/AceEditor';
 import constants from 'client/constants/variable.js';
 import { httpCodes } from '../index.js';
-import './CaseDesModal.scss';
+import './CaseDesModal.less';
 import { connect } from 'react-redux';
 import json5 from 'json5';
 

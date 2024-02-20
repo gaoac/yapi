@@ -14,7 +14,7 @@ import {
 const { TextArea } = Input;
 import { trim } from '../../../common.js';
 import _ from 'underscore';
-import './GroupSetting.scss';
+import './GroupSetting.less';
 const confirm = Modal.confirm;
 
 @connect(

@@ -1,4 +1,4 @@
-import './MockDoc.scss';
+import './MockDoc.less';
 import React, { PureComponent as Component } from 'react';
 import PropTypes from 'prop-types';
 

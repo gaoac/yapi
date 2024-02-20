@@ -1,4 +1,4 @@
-import './View.scss';
+import './View.less';
 import React, { PureComponent as Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './index.scss';
+import './index.less';
 import { Alert, Modal, Row, Col, Icon, Collapse, Input, Tooltip } from 'antd';
 import MockList from './MockList.js';
 import MethodsList from './MethodsList.js';

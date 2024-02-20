@@ -13,7 +13,7 @@ const jsondiffpatch = require('jsondiffpatch/dist/jsondiffpatch.umd.js');
 const formattersHtml = jsondiffpatch.formatters.html;
 import 'jsondiffpatch/dist/formatters-styles/annotated.css';
 import 'jsondiffpatch/dist/formatters-styles/html.css';
-import './TimeLine.scss';
+import './TimeLine.less';
 import { timeago } from '../../../common/utils.js';
 
 // const Option = AutoComplete.Option;

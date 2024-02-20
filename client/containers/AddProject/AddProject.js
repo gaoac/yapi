@@ -13,7 +13,7 @@ const RadioGroup = Radio.Group;
 import { pickRandomProperty, handlePath, nameLengthLimit } from '../../common';
 import constants from '../../constants/variable.js';
 import { withRouter } from 'react-router';
-import './Addproject.scss';
+import './Addproject.less';
 
 const formItemLayout = {
   labelCol: {
